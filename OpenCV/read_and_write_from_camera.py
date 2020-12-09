@@ -17,6 +17,10 @@ while(cap.isOpened()):
     #To get the properties of the frame with specific arguments to each property, use 'get' command.
         print(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
         print(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+        
+        # To set the parameters for camera frame display, use 'set' command with numbered arguments for each property.
+        cap.set(3,1200) # Setting the height and width of the frame (depends on camera resolution)
+        cap.set(4,720)
 
         out.write(frame) #Write the frames to a video file
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) #Conversion to Grayscale 

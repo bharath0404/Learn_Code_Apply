@@ -14,4 +14,3 @@
 
 > This README will be continuously updated based on regular developments.
 
-<bharath.chunduru4@gmail.com>

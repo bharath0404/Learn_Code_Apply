@@ -3,7 +3,7 @@
 import numpy as np
 import cv2
 
-#img = cv2.imread('/home/bharath/Learn_Code_Experiment/OpenCV/lena.jpg',1)
+#img = cv2.imread('/home/bharath/Learn_Code_Experiment/OpenCV/data/lena.jpg',1)
 
 # To display a black image of given dimensions
 img = np.zeros([512, 512, 3], np.uint8)

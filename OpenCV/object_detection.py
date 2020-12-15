@@ -23,7 +23,7 @@ cv2.createTrackbar("UV", "Tracking", 255, 255, nothing)
 # To track the trackbar position, it is recommended to continuously track it.
 while True:
     frame = cv2.imread(
-        '/home/bharath/Learn_Code_Experiment/OpenCV/smarties.png')
+        '/home/bharath/Learn_Code_Experiment/OpenCV/data/smarties.png')
 
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)  # Changing to HSV color space
 

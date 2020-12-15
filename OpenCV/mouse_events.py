@@ -28,7 +28,7 @@ def click_event(event, x, y, flags, param):
         cv2.imshow('Mouse Events', img)
 
 
-img = cv2.imread('/home/bharath/Learn_Code_Experiment/OpenCV/lena.jpg', 1)
+img = cv2.imread('/home/bharath/Learn_Code_Experiment/OpenCV/data/lena.jpg', 1)
 points = []  # Use an array to store the clicked points
 cv2.imshow('Mouse Events', img)
 # Command to use the mouse callback function

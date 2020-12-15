@@ -5,7 +5,8 @@ from matplotlib import pyplot as plt
 import numpy as np
 
 # Read the image in grayscale and threshold it (pre-processing) to perform morrphological operations
-img = cv2.imread('/home/bharath/Learn_Code_Experiment/OpenCV/smarties.png', 0)
+img = cv2.imread(
+    '/home/bharath/Learn_Code_Experiment/OpenCV/data/smarties.png', 0)
 _, mask = cv2.threshold(img, 220, 255, cv2.THRESH_BINARY_INV)
 
 # A kernal (structural element) that is used to carry out the operation.

@@ -1,8 +1,9 @@
 import cv2
 import numpy as np
 
-img_0 = cv2.imread('/home/bharath/Learn_Code_Experiment/OpenCV/lena.jpg')
-img_0_1 = cv2.imread('/home/bharath/Learn_Code_Experiment/OpenCV/opencv-logo.png')
+img_0 = cv2.imread('/home/bharath/Learn_Code_Experiment/OpenCV/data/lena.jpg')
+img_0_1 = cv2.imread(
+    '/home/bharath/Learn_Code_Experiment/OpenCV/data/opencv-logo.png')
 
 # Print the shape of img_0
 print(img_0.shape)
@@ -24,7 +25,7 @@ for i in range(8):
 img_2 = np.zeros([576, 576], np.uint8)
 
 # Adding two images
-detr = cv2.addWeighted(img_0,0.5,img_0_1,0.5,0)
+detr = cv2.addWeighted(img_0, 0.5, img_0_1, 0.5, 0)
 cv2.imshow("Add operation", detr)
 
 # 'Bit-wise AND' operation

@@ -4,7 +4,7 @@ import cv2
 
 # Read the image through 'imread' command. Enter the full path to the image.
 # The second argument shows if the color should be read in color (1) or grayscale (0) or unchanged with alpha channel (-1)
-img = cv2.imread('/home/bharath/Learn_Code_Experiment/OpenCV/lena.jpg', 0)
+img = cv2.imread('/home/bharath/Learn_Code_Experiment/OpenCV/data/lena.jpg', 0)
 # print(img)
 
 # Display the image using 'imshow' command on a window named using first argument and inputted using the second argument

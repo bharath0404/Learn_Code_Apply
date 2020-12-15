@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt 
 
-img = cv2.imread('/home/bharath/Learn_Code_Experiment/OpenCV/fruits.jpg')
+img = cv2.imread('/home/bharath/Learn_Code_Experiment/OpenCV/data/fruits.jpg')
 # Matplotlib reads images in RGB format whereas OpenCV reads them in BGR format. Conversion for 2D plotting.
 img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
 

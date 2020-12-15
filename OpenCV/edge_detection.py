@@ -7,7 +7,7 @@ from matplotlib import pyplot as plt
 def nothing(x):
     pass
 
-img = cv2.imread('/home/bharath/Learn_Code_Experiment/OpenCV/messi5.jpg',0)
+img = cv2.imread('/home/bharath/Learn_Code_Experiment/OpenCV/data/messi5.jpg',0)
 img_1 = cv2.namedWindow("Canny_Edge_Thresholds")
  
 # Using Laplacian filter

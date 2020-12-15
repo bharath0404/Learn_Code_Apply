@@ -3,8 +3,10 @@
 import cv2
 from matplotlib import pyplot as plt  # For plotting purposes
 
-img = cv2.imread('/home/bharath/Learn_Code_Experiment/OpenCV/gradient.png', 0)
-img_1 = cv2.imread('/home/bharath/Learn_Code_Experiment/OpenCV/sudoku.png', 0)
+img = cv2.imread(
+    '/home/bharath/Learn_Code_Experiment/OpenCV/data/gradient.png', 0)
+img_1 = cv2.imread(
+    '/home/bharath/Learn_Code_Experiment/OpenCV/data/sudoku.png', 0)
 
 # Use 'threshold' function to apply thresholding.
 
